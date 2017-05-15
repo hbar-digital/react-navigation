@@ -165,7 +165,7 @@ class TabView extends PureComponent<void, Props, void> {
     }
 
     if (animationEnabled === false && swipeEnabled === false) {
-      renderPager = this._renderPager;
+      // renderPager = this._renderPager;
     }
 
     const props = {
